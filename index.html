@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dapur Rani - E-Catalog Kue Rumahan</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%235a3422'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-size='21' font-weight='700' fill='%23fff7e8'%3EDR%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dapur Rani">
+      <span class="brand-mark">DR</span>
+      <span>Dapur Rani</span>
+    </a>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a href="#value">Keunggulan</a>
+      <a href="#katalog">Katalog</a>
+      <a href="#pesan">Pesan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Kue rumahan fresh setiap hari</p>
+        <h1>Kue pasar hangat untuk keluarga, kantor, dan acara spesial.</h1>
+        <p class="hero-copy">
+          Dapur Rani menyediakan kue rumahan yang enak, murah, dan siap dipesan untuk arisan,
+          rapat kantor, syukuran, ulang tahun, sampai hantaran sederhana.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#katalog">Lihat Katalog</a>
+          <a class="btn secondary" id="heroWhatsapp" href="#" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Info pesanan Dapur Rani">
+        <img src="assets/contoh-gambar-produk.jpg" alt="Aneka kue rumahan Dapur Rani">
+        <div class="hero-card-text">
+          <strong>ORDER EVENT BISA REQUEST JUMLAH.</strong>
+          <span>Mulai dari snack box kecil sampai pesanan kantor.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="value" id="value">
+      <div class="section-heading">
+        <p class="eyebrow">Kenapa Dapur Rani</p>
+        <h2>Praktis untuk ibu rumah tangga dan pekerja kantor.</h2>
+      </div>
+      <div class="value-grid">
+        <article class="value-item">
+          <span class="value-icon">01</span>
+          <h3>Rasa rumahan</h3>
+          <p>Dibuat dengan resep keluarga, tekstur lembut, dan rasa manis yang pas.</p>
+        </article>
+        <article class="value-item">
+          <span class="value-icon">02</span>
+          <h3>Harga hemat</h3>
+          <p>Pilihan kue mulai dari Rp3.000, cocok untuk camilan harian dan pesanan banyak.</p>
+        </article>
+        <article class="value-item">
+          <span class="value-icon">03</span>
+          <h3>Siap untuk event</h3>
+          <p>Menerima order arisan, rapat, pengajian, ulang tahun, dan acara keluarga.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="catalog" id="katalog">
+      <div class="section-heading">
+        <p class="eyebrow">Katalog Kue</p>
+        <h2>Pilih kue favoritmu.</h2>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="cta" id="pesan">
+      <div class="cta-content">
+        <p class="eyebrow">Pesan cepat</p>
+        <h2>Butuh 50 kue untuk acara hari ini atau besok?</h2>
+        <p>Kirim pesan WhatsApp, nanti Dapur Rani bantu cek stok dan rekomendasi paketnya.</p>
+      </div>
+      <a class="btn primary cta-button" id="ctaWhatsapp" href="#" target="_blank" rel="noopener">Pesan 50 Kue</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Dapur Rani. Kue rumahan enak, murah, dan siap order event.</p>
+    <a id="footerWhatsapp" href="#" target="_blank" rel="noopener">WhatsApp: 08123456789</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

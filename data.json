@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Klepon",
+    "harga": 20000,
+    "gambar": "assets/gambar-klepon.jpg",
+    "deskripsi": "Klepon pandan lembut dengan isi gula merah dan taburan kelapa gurih."
+  },
+  {
+    "nama": "Onde-onde",
+    "harga": 3000,
+    "gambar": "assets/gambar-onde.jpg",
+    "deskripsi": "Onde-onde wijen renyah di luar, lembut di dalam, cocok untuk camilan sore."
+  },
+  {
+    "nama": "Nagasari",
+    "harga": 4000,
+    "gambar": "assets/gambar-nagasari.jpg",
+    "deskripsi": "Nagasari pisang beraroma daun pisang, manis ringan, dan mengenyangkan."
+  },
+  {
+    "nama": "Dadar gulung",
+    "harga": 3000,
+    "gambar": "assets/gambar-dadar-gulung.jpg",
+    "deskripsi": "Dadar gulung isi kelapa gula merah, lembut dan pas untuk snack box."
+  }
+]
